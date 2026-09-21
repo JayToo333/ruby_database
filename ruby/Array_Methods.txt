@@ -1,0 +1,13 @@
+---------------------
+--- Array Methods ---
+---------------------
+Array have Methods too like these:
+
+length - tells the length of the array in elements.
+
+include? - checks if the chosen characters are in any of the values.
+
+reverse - reverts the order of the values.
+
+sort - sort alphabetically all the values.
+

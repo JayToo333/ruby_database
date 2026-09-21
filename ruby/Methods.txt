@@ -1,0 +1,84 @@
+---------------
+--- Methods ---
+---------------
+These are variants of commands that have a specific use in that action.
+
+When used after a variable name these specific variants do actions such as:
+
+upcase - transform the text printed to upcase letters.
+ex.: 
+     name = "John"
+     puts name.upcase
+
+terminal: 
+     John
+
+downcase - same as upcase but for downcase text.
+
+strip - getsd rid of any spaces behind and in front of the printed text.
+
+lenght - tells how big in characters the string is.
+
+include? - tells if the characters chosen are in the string.
+ex.: 
+     color = "red"
+     puts color.include "red"
+
+terminal: 
+     true
+
+There is a way to find a specific character in the string using square brackets starting on one.
+ex.: 
+     colour = "blue"
+     puts colour[0]
+
+terminal:
+     b
+
+And by chosing a range the command will select the amount of characters by the number counting the starting position.
+ex.: 
+     colour = "blue"
+     puts colour[0,2]
+
+terminal:
+     bl
+
+index - shows when in the string the characters chosen are, starting by the first one.
+ex.: 
+     colour = "blue"
+     puts colour.index("bl")
+
+terminal: 
+     0
+
+OBS: when doing operations with only Integers for example, Ruby will give the answer only in Integers. But if theres a float number then the answer will be in float for example.
+
+Methods can be used as blocks like functions.
+ex.: 
+     def sayhi
+          puts "Hello user"
+     end
+     sayhi
+
+terminal:
+     Hello user
+
+It's possible to give variables and values to them:
+ex.: 
+     def sayhi(name)
+          puts "Hello " + name
+     end
+     sayhi("John")
+
+terminal: 
+     Hello John
+
+Variables can have default values as well:
+ex.:
+     def sayhi(name="no name", age=-1)
+          puts "Hello " + name + ",you are " + age.to_s
+     end
+     sayhi("John")
+
+terminal:
+     Hello John, you are -1

@@ -1,0 +1,26 @@
+--------------
+--- Return ---
+--------------
+Return the line specified only:
+ex.:
+     def cube(num)
+          return num * num * num
+          puts "wont return"
+     end 
+     puts cube(3)
+
+terminal:
+     27
+
+It only printed the return statement and ignored the puts ("wont retutn").
+
+There is also a way to use return to multiple statements:
+ex2.:
+     def cube(num)
+          return num * num * num, 70
+     end
+     puts cube(3)
+
+terminal
+     27
+     70

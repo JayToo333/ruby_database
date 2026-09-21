@@ -1,0 +1,18 @@
+------------
+--- Gets ---
+------------
+Used to interact with the user terminal, getting the information written on it.
+ex.:
+     puts "Hello, what's your name?"
+     name = gets
+     puts "Your name is #{name}"
+
+terminal: 
+     Hello, what's your name?
+user:
+     John
+terminal
+     Your name is John
+
+To avoid getting new lines after the gets use ".chomp" at the end of you gets.
+

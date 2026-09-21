@@ -1,0 +1,27 @@
+-------------
+--- PRINT ---
+-------------
+There are multiple ways to print something in Ruby:
+
+Print - Print the text between quotation marks or variables without jumping any lines after. 
+ex.:
+      print "Hello World"
+
+terminal:
+      Hello World
+
+ex2.: 
+      print "Hello World"
+      print "Hello World"
+
+terminal:
+      Hello WorldHello World 
+
+Puts - Same thing as Print, however it creates a new line for the next print (like what enter does on a notepad)
+ex.: 
+      puts "Hello World"
+      puts "Hello World"
+
+terminal:
+      Hello World
+      Hello World

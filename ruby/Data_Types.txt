@@ -1,0 +1,24 @@
+------------------
+--- Data Types ---
+------------------
+There is multiple types of data, such as:
+
+Boolean - either true or false, that is, zero or 1.
+
+Integers - Decimal numbers that are perfect divisions including negative ones (-1, 0, 1, ...)
+
+Float - Numbers that could go beyound the decimal state (-1, 0.1, 1.23, ...)
+
+Nil - no value whatsoever
+ex.:
+    age = Nil
+    puts age
+
+terminal:
+
+Strings - commands that store words. to print quotation marks use a backslash "/" after it.
+ex.:
+    puts " /"Hello World/" " 
+
+terminal: 
+    "Hello World"

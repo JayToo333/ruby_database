@@ -1,0 +1,47 @@
+--------------------
+--- Math Methods ---
+--------------------
+Some methods are used in math commands to get specific outputs such as:
+
+Exponential - Using double mutiplying signs "**" you can get a number to be elevated.
+
+Remainder - Using the percentage sign "%" you can get the reminder of a division.
+ex.:
+     puts 10/3
+
+terminal: 
+     1
+
+Converting to a String - To convert a number to a String add  ".to_s" at the end of the variable.
+
+Absolute - Gives the absolute value of tge number.
+ex.:
+     num = -20
+     puts num.abs
+
+terminal:
+     20
+
+Round - Rounds a number to the closest integer.
+
+Ceil - Gives the nest highest number.
+ex.: 
+     num = 20.1
+     puts num.ceil
+
+terminal:
+     21
+
+Floor - Same thing as Ceils put for the lowest integer.
+
+Converting to a Integer - Same thing as converting to a String but using ".to_i" at the end of the variable.
+
+Converting to a Float - Same thing as converting to a Integer but using ".to_f" at the end of the variable.
+
+Square Root - gets the square root of a number.
+ex.: 
+     num = 9
+     puts Math.sqrt(num)
+
+terminal:
+     3

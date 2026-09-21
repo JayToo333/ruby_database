@@ -1,0 +1,41 @@
+-------------
+--- Class ---
+-------------
+Used as a model to create a structure that generates within a pattern:
+ex.: 
+    class Person
+        def initialize(name, age)
+            @name = name
+            @age = age
+        end
+
+        def greet
+            puts "Hello, #{@name} you are #{@age}!"
+        end
+    end
+
+    person_1 = Person.new("João", "18")
+    person_2 = Person.new("Matheus", "17") 
+
+    puts person_1.greet 
+    puts person_2.greet 
+
+In this format there are the instances which are "person_1"and "person_2" that work like a variable to represent the class choosen (Person) and can have value put into it to give a result.
+
+The instance class variables are recognized by the prefix "@" before their names such as "@age".
+
+In the class the defined functions will act like methods called ny the instances outside of the class, for example, with "person_1.greet" with "greet" being the function but called as a method.
+
+To create an instance you should use the .new method
+
+To make a class a method u should use "self" instead of the class name:
+ex.:
+    class Thing
+        def self.hello(name)
+            puts "Hello, #{name}!"
+        end
+    end
+    puts Thing.hello("Mario")
+
+terminal:
+    Hello Mario!

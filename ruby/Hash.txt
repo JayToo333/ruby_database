@@ -1,0 +1,26 @@
+------------
+--- Hash ---
+------------
+used like arrays but with a key indentification
+ex.: 
+      states = {
+            "Rio de Janeiro" => "RJ",
+            "São Paulo"      => "SP",
+            "Minas Gerais"   => "MG",
+      }
+      puts states ["São Paulo"]
+
+terminal:
+      SP
+
+another way is using a colon instead:
+ex2.:
+      states = {
+            :"Rio de Janeiro" => "RJ",
+            :"São Paulo"      => "SP",
+            :"Minas Gerais"   => "MG",
+      }
+      puts states [:"São Paulo"]
+
+terminal:
+      SP

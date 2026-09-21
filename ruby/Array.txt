@@ -1,0 +1,50 @@
+-------------
+--- Array ---
+-------------
+Are like strings but can store multiple values.
+ex.:
+     friends = Array["John", "Maria", "Sarah"]
+     puts friends
+
+terminal: 
+     John, 
+     Maria,
+     Sarah
+
+To get only one value use square brackets aftewards the variable in puts starting by 0.
+ex.:
+     friends = Array["John", "Maria", "Sarah"]
+     puts friends [0]
+
+*terminal: 
+     John
+
+Using negative numbers you can go backwards in the Array.
+ex.: 
+     friends = Array["John", "Maria", "Sarah"]
+     puts friends[-1]
+
+terminal: 
+     Sarah
+
+To grab a range, put a number aftewards the starting point from the Array in the selected value.
+ex.: 
+     friends = Array["John", "Maria", "Sarah"]
+     puts friends [0,2]
+
+terminal: 
+     John,
+     Maria
+
+Its possible to modify existent values like this:
+ex.: 
+     friends = Array["John", "Maria", "Sarah"]
+     friends [0] = "Gabriel"
+     puts friends
+
+terminal: 
+     Gabriel,
+     Maria,
+     Sarah
+
+If an Array doenst have a value you should put a ".new" aftewards it.

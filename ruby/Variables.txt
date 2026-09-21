@@ -1,0 +1,21 @@
+-----------------
+--- Variables ---
+-----------------
+Are words that recieve given values to store. Should use a "+" between text and variables when printed or put inside brackets with a hashtag in front inside the quotation marks.
+ex.: 
+name = "John"
+puts name
+
+*terminal: John
+
+ex2.: 
+name = "Maria"
+puts "Your name is" + name
+
+*terminal: Your name is Maria
+
+ex3.:
+name = "Maria"
+puts "Your name is #{name}"
+
+*terminal: Your name is Maria

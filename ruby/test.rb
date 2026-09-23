@@ -1,6 +1,7 @@
-class Thing
-        def self.hello(name)
-            puts "Hello, #{name}!"
-        end
-end
-    puts Thing.hello("Mario")
+states = {
+    "Rio de Janeiro": "RJ",
+    "São Paulo":      "SP",
+    "Minas Gerais":   "MG",
+}
+
+puts states [:"São Paulo"]

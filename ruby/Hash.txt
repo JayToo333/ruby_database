@@ -24,3 +24,15 @@ ex2.:
 
 terminal:
       SP
+
+that is the same as:
+ex3.:
+      states = {
+            "Rio de Janeiro": "RJ",
+            "São Paulo":      "SP",
+            "Minas Gerais":   "MG",
+      }
+      puts states [:"São Paulo"]
+
+terminal:
+      SP

@@ -1,7 +1,2 @@
-class Teste
-  puts segundo
-end
-
-def segundo
-    "Olá"
-end
+oi = "salada"
+puts "User created " #{"oi"} with id #{"oi"}""
